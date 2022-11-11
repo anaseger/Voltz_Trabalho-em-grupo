@@ -1,0 +1,488 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+}
+
+nav {
+    height: 60px;
+}
+
+.container__top img {
+    width: 100px;
+    padding-top: 5px;
+}
+
+.container__options {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .nav__link {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+
+.img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.p__apresentacao {
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    display: flex;
+    height: 450px;
+    padding-top: 30px;
+}
+
+.p__apresentacao .p__texto {
+    width: auto;
+    padding: 50px;
+    line-height: 26px;
+}
+
+.p__texto h2 {
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.p__texto h3 {
+    padding-bottom: 25px;
+}
+
+.p__apresentacao .p__video {
+    padding: 50px;
+} 
+
+button {
+    background-color: rgb(0, 0, 0);  
+    border: white 1px solid;
+    padding: 8px;
+    border-radius: 100px;
+}
+
+button.sport a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 4px;
+}
+
+button.sport:hover {
+    background-color: white;
+}
+
+button.sport a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 4px;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.produtos {
+    color: white;
+    padding: 150px 20px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-produto {
+    background-color: #161515c2;
+    padding: 2px 30px 50px 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.img-card {
+    height: 200px;
+}
+
+.img-card img {
+    width: 100%;
+}
+
+.card-produto p {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    height: 180px;
+}
+
+.card-produto a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.card-produto a:hover {
+    background-color: rgba(255, 255, 255, 0.377);
+    color: black;
+}
+
+.quem__somos {
+    background-color: black;
+    width: auto;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+.quem__somos img {
+    height: 450px;
+}
+
+.quem__somos .sobre {
+    margin: 30px;
+    align-items: center;
+}
+
+.quem__somos h2 {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.quem__somos .texto__sobre {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.quem__somos .sub__texto {
+    font-weight: 600;
+}
+
+.quem__somos h4 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.programa-voltz {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(250, 75%, 17%);
+    color: white;
+}
+
+.programa-voltz .tribo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.tribo #img-top {
+    width:280px;
+}
+
+.tribo #img-bt {
+    width:450px;
+}
+
+.saiba-mais {
+   display: flex; 
+   flex-direction: column;
+   width: 412px;
+   justify-content: center;
+}
+
+.saiba-mais h1 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 0;
+    font-weight: 900;
+}
+
+.saiba-mais p {
+    margin: 0;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.saiba-mais a {
+    text-decoration: none;
+    color: black;
+}
+
+.saiba-mais button {
+    margin-top: 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    width: 130px;
+    text-align: center;
+}
+
+.saiba-mais button:hover {
+    background-color: white;
+    color: black;
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 10px 20px;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.voltz-ia {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    color: #151515;
+    padding: 50px 0px;
+}
+
+.voltz-ia #celular {
+    width: 160px;
+}
+
+.ia-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.ia-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.ia-info a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.ia-info h1 {
+    font-size: 29px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.ia-info p {
+    font-size: 14px;
+    line-height: 0;
+}
+
+.ia-app img {
+    margin:35px 0px 25px 10px;
+    height: 35px;
+    width: 130px;
+}
+
+.ia-info button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.ia-info button:hover {
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+}
+
+footer {
+    text-align: center;
+    margin: 80px 0px 40px 0px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 120px;
+}
+
+.footer-menu a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    line-height: 2.5;
+}
+
+.footer-menu a:hover {
+    color: gray;
+}
+
+.footer-menu h1 {
+    color: gray;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-sobre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-link {
+    display: inline-grid;
+}
+
+.footer-link:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.footer-link img {
+    width: 30px;
+    margin:80px 5px 30px 0px;
+}
+
+.footer-baixar img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.footer-baixar {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+footer h2 {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+@media(max-width:1100px) {
+
+    .p__apresentacao {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .p__video {
+        display: flex;
+        justify-content: center;
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-produto {
+        margin-top: 14px;
+        width: 550px;
+    }
+
+    .img-card {
+        height: auto;
+    }
+
+    .quem__somos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img__sobre {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:765px) {
+
+    .card-produto {
+        width: auto;
+    }
+
+    .quem__somos img {
+       height: 300px;
+    }
+
+    .programa-voltz {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .programa-voltz .tribo {
+        width: 100%;
+    }
+
+    .saiba-mais {
+        display: flex;
+        align-items: center;
+        width: 350px;
+    }
+
+    .saiba-mais h1 {
+        line-height: normal;
+    }
+
+    .tribo #img-bt {
+        width: 300px;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:540px) {
+
+    .ia-app {
+        display: flex;
+    }
+}
+
+@media(max-width:452px) {
+
+    #celular {
+        display: none;
+    }
+
+    .ia-info {
+        align-items: center;
+        margin: auto;
+    }
+}
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Work Sans', sans-serif; *\
